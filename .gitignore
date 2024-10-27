@@ -1,0 +1,20 @@
+# .gitignore file for CSD 340 module projects
+# This file specifies intentionally untracked files to ignore in the Git repository
+
+# Operating System files
+Thumbs.db                # Windows thumbnail cache
+
+# Zipped folders
+module-1.zip
+
+# Environment variables
+.env                    
+
+# IDE and editor files
+.vscode/                # Visual Studio Code settings
+.idea/                  # JetBrains IDEs (e.g., IntelliJ, PyCharm)
+
+# Temporary files
+*.tmp                   # Temporary files
+*.temp                  # Temporary file extensions
+*.log                   # Ignore all log files
