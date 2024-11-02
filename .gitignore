@@ -4,8 +4,8 @@
 # Operating System files
 Thumbs.db                # Windows thumbnail cache
 
-# Zipped folders
-module-1.zip
+# Ignore all zip files
+*.zip
 
 # Environment variables
 .env                    

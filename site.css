@@ -1,0 +1,43 @@
+/* styles for #container */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* apply Lacquer to h1 */
+h1 {
+    /* font-family: "Carrois Gothic SC", sans-serif; - my 2nd choice if I swap*/
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* apply Lacquer to other headings */
+h2, h3, h4, p, li, a {
+    /* font-family: "Sawarabi Gothic", sans-serif; - another backup font */
+    font-family: "Lacquer", system-ui;
+
+}
+
+/* styling headings */
+h1, h2, h3, h4 {
+    background-color: #000000; 
+    color: #0dda29;            
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+/* styling anchor tags */
+a {
+    color: #db7ce7;            
+    text-decoration: none;
+}
+
+/* styling anchor hover, visited, and active states */
+a:hover {
+    color: #e407f8;            
+}
+a:visited {
+    color: #7c0694;            
+}
