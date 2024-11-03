@@ -1,0 +1,56 @@
+/* apply font to the body */
+body {
+    font-family: 'Ubuntu', sans-serif; /* fallback to sans-serif if Ubuntu is not available */
+}
+
+/* center h1 title */
+h1 {
+    text-align: center;
+}
+
+/* set the width of the side-by-side divs */
+#left-div, #right-div {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* set the width and alignment of the return div */
+#return-div {
+    width: 100%;
+    margin-top: 60px; 
+    text-align: right; 
+    margin-bottom: 20px; 
+}
+
+/* style for the link in the return div */
+#return-div a {
+    text-decoration: none; 
+}
+
+/* underline on hover */
+#return-div a:hover {
+    text-decoration: underline;
+}
+
+/* style the h3 tags */
+h3 {
+    font-weight: 500;
+}
+
+/* style the ordered list */
+ol {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+/* style the unordered list */
+ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
