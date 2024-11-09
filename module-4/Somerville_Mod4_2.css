@@ -1,0 +1,65 @@
+body {
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+/* center h1 title */
+h1 {
+    text-align: center;
+    color: rgb(89, 38, 102, 1); 
+}
+
+/* style container div */
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* style image gallery */
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal width columns */
+    margin-top: 10%;
+}
+
+/* style individual gallery items */
+#image-gallery div {
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 8px; /* corner rounding */
+}
+
+/* center h3 titles for each image item */
+#image-gallery h3 {
+    font-weight: 500;
+    color: rgb(89, 38, 102, 1); 
+}
+
+/* center the figure content */
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+/* style figcaption */
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+/* style the return link div */
+#return-div {
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* return link styles */
+#return-div a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#return-div a:hover {
+    text-decoration: underline;
+}
