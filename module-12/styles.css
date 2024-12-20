@@ -1,0 +1,104 @@
+/* apply font to the body */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px;
+    color: #440b3f;
+}
+
+/* center h1 title */
+h1 {
+    text-align: center;
+}
+
+/* container for side by side lists */
+#list-container {
+    display: flex; /* arrange child divs in a row */
+    justify-content: space-between; /* space between the lists */
+    gap: 20px; /* space between the two divs */
+    margin-top: 20px; /* spacing from the title or other content */
+}
+
+/* styles for individual list divs */
+#left-div, #right-div {
+    flex: 1; /* divs grow/shrink equally */
+    padding: 10px;
+    border: 1px solid red; 
+    border-radius: 8px;
+    background-color: #dffbff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+/* styles for the lists ol-ul */
+ol {
+    padding: 10px;
+    list-style-position: inside;
+}
+
+ul {
+    padding: 10px;
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+
+
+/* button styles */
+#button-div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #21df3a;
+}
+
+button:hover {
+    background-color: #94098d;
+}
+
+/* footer container */
+#return-div {
+    margin-top: 20px; /* space between main content and footer */
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px; 
+    position: fixed;
+    width: 100%; 
+    bottom: 0;
+    left: 0; /* ensures the footer starts at very left edge */
+    background-color: #f8f9fa; 
+    border-top: 1px solid #ddd; 
+    box-sizing: border-box; /* ensures padding doesn't break the layout */
+}
+
+/* footer text */
+footer p {
+    margin: 0; 
+    font-size: 14px;
+    color: #333; 
+}
+
+/* footer link styles */
+footer a {
+    text-decoration: none;
+    color: #c01c9d; 
+    font-weight: bold;
+    margin-left: auto; 
+    white-space: nowrap; 
+}
+
+footer a:hover {
+    color: #77136f; 
+}
+
